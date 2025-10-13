@@ -1,0 +1,43 @@
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de logs
+*.log
+
+# Dossiers de configuration VS Code
+.vscode/
+.settings/
+
+# Fichiers temporaires de Jupyter
+.ipynb_checkpoints/
+
+# Caches
+*.cache
+*.pytest_cache/
+*.mypy_cache/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Données locales ou modèles lourds
+data/
+models/
+*.h5
+*.pth
+*.pt
+
+# Fichiers d’environnement
+.env
+
+# Build et distribution
+build/
+dist/
+*.egg-info/
