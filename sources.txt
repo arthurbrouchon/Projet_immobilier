@@ -1,1 +1,7 @@
 https://www.data.gouv.fr/datasets/base-des-permis-de-construire-et-autres-autorisations-durbanisme-sitadel/
+
+Prix moyen de location au m^2 par commune :
+https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/#c=indicator&i=loyers_dgaln.loypredm2_app&s=2024&view=map76
+
+Taux de taxe foncière par commune :
+https://www.data.gouv.fr/datasets/fiscalite-locale-des-particuliers/#/resources/f48d0fcc-f732-445d-ba2d-886ec4952bce
