@@ -1,3 +1,7 @@
+DVF (pour trouver les achats revente)
+https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres/
+
+Permis de construire
 https://www.data.gouv.fr/datasets/base-des-permis-de-construire-et-autres-autorisations-durbanisme-sitadel/
 
 Prix moyen de location au m^2 par commune :
