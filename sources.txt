@@ -9,3 +9,6 @@ https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive
 
 Taux de taxe foncière par commune :
 https://www.data.gouv.fr/datasets/fiscalite-locale-des-particuliers/#/resources/f48d0fcc-f732-445d-ba2d-886ec4952bce
+
+Logements Vacants par Dep/Communes (bien sous valorisé/disponible à rénover):
+https://www.data.gouv.fr/datasets/logements-vacants-du-parc-prive-en-france-et-par-commune-departement-region/
