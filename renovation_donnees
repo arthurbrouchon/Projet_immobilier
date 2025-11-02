@@ -1,0 +1,26 @@
+import pandas as pd
+import ipywidgets as widgets
+from IPython.display import display, HTML, clear_output
+
+#sources : https://france-renov.gouv.fr/ https://www.statistiques.developpement-durable.gouv.fr/
+#pas de dataset massif public qui donne ces infos donc estimations prises des sites ci-dessus
+
+G_F_vers_D = 275; G_F_vers_C = 425; G_F_vers_B = 575; G_F_vers_A = 1000
+E_D_vers_C = 225; E_D_vers_B = 400; E_D_vers_A = 750
+C_vers_B = 175; C_B_vers_A = 650
+
+# Plus-values Moyennes Potentielles (€/m² sur le prix du bien)
+PV_G_F_vers_D = 350; PV_G_F_vers_C = 600; PV_G_F_vers_B = 800; PV_G_F_vers_A = 1100
+PV_E_D_vers_C = 200; PV_E_D_vers_B = 400; PV_E_D_vers_A = 600
+PV_C_B_vers_A = 300; PV_C_vers_B = 100
+
+COUTS_PV_MAP = {
+    'G': {'D': (G_F_vers_D, PV_G_F_vers_D), 'C': (G_F_vers_C, G_F_vers_C), 'B': (G_F_vers_B, PV_G_F_vers_B), 'A': (G_F_vers_A, PV_G_F_vers_A)},
+    'F': {'D': (G_F_vers_D, PV_G_F_vers_D), 'C': (G_F_vers_C, PV_G_F_vers_C), 'B': (G_F_vers_B, PV_G_F_vers_B), 'A': (G_F_vers_A, PV_G_F_vers_A)},
+    'E': {'C': (E_D_vers_C, PV_E_D_vers_C), 'B': (E_D_vers_B, PV_E_D_vers_B), 'A': (E_D_vers_A, PV_E_D_vers_A)},
+    'D': {'C': (E_D_vers_C, PV_E_D_vers_C), 'B': (E_D_vers_B, PV_E_D_vers_B), 'A': (C_B_vers_A, PV_C_B_vers_A)},
+    'C': {'B': (C_vers_B, PV_C_vers_B), 'A': (C_B_vers_A, PV_C_B_vers_A)},
+    'B': {'A': (C_B_vers_A, PV_C_B_vers_A)},
+}
+
+
